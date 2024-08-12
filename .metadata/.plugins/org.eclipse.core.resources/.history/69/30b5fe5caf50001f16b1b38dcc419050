@@ -1,0 +1,15 @@
+package myfirst;
+
+public class math {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double x = 3.14;
+		double y = -13;
+		
+		double z = Math.min(x, y);
+		System.out.println(z);
+	}
+
+}

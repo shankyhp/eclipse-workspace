@@ -1,0 +1,14 @@
+package myfirst;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int x = 123;
+		System.out.println("my number is: " +x);
+		System.out.println("Shankar");
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package myfirst;
+import java.util.scanner
+public class three {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		Sysystem.out.println("What is your name?");
+		String name =scanner.nextLine();
+		System.out.println("Hello"+name);
+
+	}
+
+}

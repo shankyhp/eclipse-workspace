@@ -1,0 +1,13 @@
+package myfirst;
+
+public class OopExample {
+
+	public static void main(String[] args) {
+		
+		
+		car myCar= new car ();
+		System.out.println(myCar.model);
+
+	}
+
+}

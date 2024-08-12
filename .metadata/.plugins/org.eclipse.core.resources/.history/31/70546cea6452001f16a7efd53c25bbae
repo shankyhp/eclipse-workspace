@@ -1,0 +1,19 @@
+package myfirst;
+
+public class ForEachLoopp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String[] animals = {"cat","rat","bird");
+		
+		for(String i : animals) {
+			
+			System.out.println(i);
+			
+		}
+		}
+
+	}
+
+}

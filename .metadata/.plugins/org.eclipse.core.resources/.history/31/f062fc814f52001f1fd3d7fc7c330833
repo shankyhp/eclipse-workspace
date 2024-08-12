@@ -1,0 +1,41 @@
+package myfirst;
+
+public class WrapperClass {
+
+    public static void main(String[] args) {
+        // Wrapper class = provides a way to use primitive data types as reference data types
+        // Reference data types contain useful methods
+        // Can be used with collections (e.g., ArrayList)
+        
+        // Primitive types and their corresponding wrapper classes
+        // boolean    --> Boolean
+        // char       --> Character
+        // int        --> Integer
+        // double     --> Double
+        
+        // Autoboxing = automatic conversion by the Java compiler between primitive types and their corresponding object wrapper classes
+        // Unboxing = the reverse of autoboxing; automatic conversion from wrapper class to primitive
+        
+        Boolean a = true;   // Autoboxing
+        Character b = '@';  // Autoboxing
+        Integer c = 123;    // Autoboxing
+        Double d = 3.14;    // Autoboxing
+        
+        // Simplified if statement
+        if (a) {  // No need for comparison with true
+            System.out.println("THIS IS TRUE BABY");
+        }
+
+        // Examples of unboxing
+        boolean primitiveA = a;    // Unboxing
+        char primitiveB = b;       // Unboxing
+        int primitiveC = c;        // Unboxing
+        double primitiveD = d;    // Unboxing
+        
+        // Demonstrate some methods of wrapper classes
+        System.out.println("Integer to binary string: " + Integer.toBinaryString(c));
+        System.out.println("Double as string: " + d.toString());
+    }
+}
+
+

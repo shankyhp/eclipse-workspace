@@ -1,0 +1,21 @@
+package myfirst;
+
+public class Second {
+
+	public static void main(String[] args) {
+		
+		
+		string x = "fruit";
+		string y = "Sweet";
+		string temp;
+		
+		temp=x;
+		x=y;
+		y=temp;
+		
+		System.out.println("x:"+ x);
+		System.out.println("y:"+ y);
+
+	}
+
+}

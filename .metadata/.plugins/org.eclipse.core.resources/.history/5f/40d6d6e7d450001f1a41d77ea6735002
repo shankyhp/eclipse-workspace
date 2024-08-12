@@ -1,0 +1,25 @@
+package myfirst;
+
+public class Logop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		int temp=6;
+		
+		if(temp>30) {
+			System.out.println("ITS HOT OUTSIDE!!!!");
+		}	
+			else if (temp>=20 && temp<=30)
+			{
+		System.out.println("ITS WARM OUTSIDE!!!!!!!!");
+		
+		
+		}
+			else {
+				System.out.println("ITS COLD DAMNNN");
+			}
+	}
+
+}

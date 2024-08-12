@@ -1,0 +1,19 @@
+package myfirst;
+
+public class MethodEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String name="Shanky";
+		hello(name);
+	
+	}
+
+	
+	 static	void hello(String title) {
+	 		
+	 		System.out.println("HELOOOOO  "+title);
+	 	}
+}

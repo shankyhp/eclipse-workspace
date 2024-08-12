@@ -1,0 +1,12 @@
+package myfirst;
+
+public class PrintfExample {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.printf("%d This is the format string",123);
+
+	}
+
+}

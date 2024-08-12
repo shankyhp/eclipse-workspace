@@ -1,0 +1,20 @@
+package myfirst;
+
+public class Selftest {
+
+	public static void main(String[] args) {
+		
+		
+		int x = 46;
+		int y = 23;
+		int temp();
+		
+		x=temp;
+		x=y;
+		y=temp;
+		
+		System.out.println("y is >>>"+y);
+
+	}
+
+}

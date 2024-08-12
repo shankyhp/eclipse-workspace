@@ -1,0 +1,20 @@
+package myfirst;
+
+import javax.swing.JOptionPane;
+public class gui {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String name = JOptionPane.showInputDialog("Enter your name");
+		JOptionPane.showmessageDialog(null,"Hello "+name);
+		
+		int age =Integer.parseInt(JOptionPane.showInputDialog("Enter your age?"));
+		JOptionPane.showmessageDialog(null,+age);
+		
+		double height = Double.parseDouble(JOptionPane.showInput Dilog("Enter your HEight"));
+		JOptionPane.showmessageDialog(null,+height);
+	}
+	
+
+}

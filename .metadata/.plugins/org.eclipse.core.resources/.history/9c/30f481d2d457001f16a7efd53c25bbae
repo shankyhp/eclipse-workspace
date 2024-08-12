@@ -1,0 +1,17 @@
+package myfirst;
+
+public class OverloadedConstructors {
+
+	public static void main(String[] args) {
+		
+		
+		Pizza pizza =new Pizza("thin crust","tomato");
+		
+		
+		System.out.println("here are the ingrediends of your pizza: ");
+		System.out.println(pizza.bread);
+		System.out.println(pizza.sauce);
+		
+	}
+
+}

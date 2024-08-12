@@ -1,0 +1,23 @@
+package myfirst;
+
+public class math {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double x = 3.14;
+		double y = -13;
+		
+		double z = Math.min(x, y); //minimum of two number
+		
+		double g = Math.abs(y); //absolute value of two numbers
+		double h = Math.sqrt(x); 
+		
+		System.out.println(z);
+		System.out.println(g);	
+System.out.println(h);
+	}
+	
+	
+
+}

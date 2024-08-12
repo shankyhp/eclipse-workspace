@@ -1,0 +1,15 @@
+package myfirst;
+
+public class expression {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int friends = 10;
+double enimies= 5
+enimies = (double)enemies/4
+friends = friends * 5;
+System.out.println(friends);
+System.out.printlnenemies();
+	}
+
+}

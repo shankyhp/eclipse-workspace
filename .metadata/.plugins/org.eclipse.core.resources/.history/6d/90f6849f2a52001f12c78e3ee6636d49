@@ -1,0 +1,18 @@
+package myfirst;
+
+public class ArraysExample {
+
+	public static void main(String[] args) {
+	
+		
+		String[] Laptop = {"Hp","Lenovo","Acer"};
+		
+		Laptop[4]="Sony";
+		
+		System.out.println(Laptop[2]);
+		
+		}
+		
+
+	}
+

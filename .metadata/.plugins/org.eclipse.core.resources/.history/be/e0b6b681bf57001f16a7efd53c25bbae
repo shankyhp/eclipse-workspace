@@ -1,0 +1,19 @@
+package myfirst;
+
+public class OopExample {
+
+	public static void main(String[] args) {
+		
+		
+		car myCar= new car ();
+		System.out.println(myCar.model);
+		System.out.println(myCar.make);
+		System.out.println(myCar.year);
+		System.out.println(myCar.color);
+		System.out.println(myCar.Price);
+		
+		//myCar.drive();
+		myCar.brake();
+	}
+
+}

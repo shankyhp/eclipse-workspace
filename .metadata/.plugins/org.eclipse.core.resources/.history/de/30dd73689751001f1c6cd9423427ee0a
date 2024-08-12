@@ -1,0 +1,21 @@
+package myfirst;
+
+import java.util.Random;
+public class RandomExamle {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			Random random = new Random();
+			int x = random.nextInt();
+			
+			double teli = random.nextDouble();
+			
+			
+			System.out.println(x);
+			System.out.println(teli);
+	
+		
+	}
+
+}

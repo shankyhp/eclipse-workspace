@@ -1,0 +1,22 @@
+package myfirst;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int x = 123;
+		float y = 3.14f;
+		boolean h = true;
+		char super = '&';
+		
+		System.out.println(super);
+		
+		System.out.println(h);
+		System.out.println(y);
+		System.out.println("my number is: " +x);
+		System.out.println("Shankar");
+		
+	}
+
+}
